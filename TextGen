@@ -1,0 +1,8 @@
+print("Welcome to the Auto-Printer. A bare-bones basic printer. Enter the desired words and amount and there you go!")
+
+word = input("\n Enter your desired word: ")
+
+amount = int(input("\n How many times should it repeat? "))
+
+result = " ".join([word] * amount)
+print(result)
